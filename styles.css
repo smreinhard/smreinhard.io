@@ -5,16 +5,13 @@
 </head>
 <body>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-
-body {
-  background-color: lightblue;
-}
+<style>
+      body {
+         background-color: rgb(255,232,219);
+      }
 
 h1 {
-  color: navy;
-  margin-left: 20px;
+  color: rgb(203,153,126);
 }
 
 </body>
