@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<body>
-<style>
-
-body {
-  background-color: #ffe8db; /* hex code for light brown */
-}
-
-h1   {
-	color: rgb(203,153,126);
-	font-family:georgia, serif;
-	font-size: 140%;
-}
-
-p   {
-	color: rgb(203,153,126);
-	font-family:arial, serif;
-	font-size: 100%;
-}
-
-</style>
-</body>
+	<style>
+		body {
+			background-color: #ffe8db; /* hex code for light brown */
+		}
+		
+		h1 {
+			color: rgb(203,153,126);
+			font-family: georgia, serif;
+			font-size: 140%;
+		}
+		
+		p {
+			color: rgb(203,153,126);
+			font-family: arial, serif;
+			font-size: 100%;
+		}
+	</style>
 </head>
-
+<body>
+	<h1>Heading</h1>
+	<p>Paragraph</p>
+</body>
 </html>
