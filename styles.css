@@ -3,45 +3,53 @@
 <head>
 	<style>
 		body {
+			font-family: arial, serif;
 			background-color: #ffe8db; /* hex code for light brown */
-			padding: 200px;
 		}
 		
 		h1 {
 			color: #b8b7a3;
 			font-family: georgia, serif;
-			font-size: 140%;
+			font-size: 140%; /* increase heading size */
+			text-align: center; /* center heading */
+			margin-top: 200px; /* add top margin */
+			margin-bottom: 200px; /* add bottom margin */
 		}
 		
 		p {
 			color: #6b705c;
 			font-family: arial, serif;
 			font-size: 100%;
+			line-height: 1.5;
+			margin-bottom: 200px; /* add bottom margin */
 		}
 
-		/* Navigation Bar Style */
 		.navbar {
-		  overflow: hidden;
-		  background-color: #6b705c;
+			background-color: #2E2E2E; /* dark gray */
+			display: flex;
+			justify-content: space-between; /* space out links */
+			align-items: center; /* center links vertically */
+			padding: 1rem 2rem; /* add padding */
 		}
 
 		.navbar a {
-		  float: left;
-		  display: block;
-		  color: #6b705c;
-		  text-align: center;
-		  padding: 14px 16px;
-		  text-decoration: none;
+			color: #F8F8F8; /* white */
+			font-size: 1.2rem; /* increase font size */
+			text-decoration: none;
+			margin: 0 1rem; /* add space between links */
+			transition: all 0.3s ease-in-out; /* add hover transition */
 		}
 
 		.navbar a:hover {
-		  background-color: #6b705c;
-		  color: black;
+			background-color: #F8F8F8; /* light gray */
+			color: #2E2E2E; /* dark gray */
+			border-radius: 5px; /* add border radius */
 		}
 
 		.active {
-		  background-color: #6b705c;
-		  color: white;
+			background-color: #F8F8F8; /* light gray */
+			color: #2E2E2E; /* dark gray */
+			border-radius: 5px; /* add border radius */
 		}
 	</style>
 </head>
