@@ -4,7 +4,7 @@
 <head>
 <style>
 body {
-  background-color: rgb(255,232,219);
+  background-color: rgb(203,153,126);
 }
 
 h1   {
@@ -19,19 +19,7 @@ p   {
 	font-size: 100%;
 }
 
-.box {
-  float: left;
-  width: 150px;
-  height: 150px;
-  margin-right: 30px;
-}
-
 </style>
 </head>
-
-<body>
-	<h1>This is a heading.</h1>
-	<p>This is a paragraph.</p>
-</body>
 
 </html>
