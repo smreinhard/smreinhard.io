@@ -19,20 +19,40 @@
 			font-size: 100%;
 		}
 
-		nav {
-			background-color: #6b705c;
-			padding: 10px;
+		/* Navigation Bar Style */
+		.navbar {
+		  overflow: hidden;
+		  background-color: #6b705c;
 		}
-	
-	nav a {
-			color: white;
-			text-decoration: none;
-			margin-right: 10px;
-			font-size: 120%;
+
+		.navbar a {
+		  float: left;
+		  display: block;
+		  color: #6b705c;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+		.navbar a:hover {
+		  background-color: #6b705c;
+		  color: black;
+		}
+
+		.active {
+		  background-color: #6b705c;
+		  color: white;
 		}
 	</style>
 </head>
 <body>
+	<!-- Navigation Bar HTML -->
+	<div class="navbar">
+		<a class="active" href="index.html">Home</a>
+		<a href="friends.html">Friends</a>
+		<a href="work.html">Work</a>
+	</div>
+
 	<h1>Heading</h1>
 	<p>Paragraph</p>
 </body>
