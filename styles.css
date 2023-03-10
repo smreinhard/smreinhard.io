@@ -5,6 +5,8 @@
 		body {
 			font-family: arial, serif;
 			background-color: #ffe8d6; /* hex code for light brown */
+			margin-left: 50px; /* add left margin */
+			margin-right: 50px; /* add right margin */
 		}
 		
 		h1 {
