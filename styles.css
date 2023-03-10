@@ -4,16 +4,17 @@
 	<style>
 		body {
 			background-color: #ffe8db; /* hex code for light brown */
+			padding: 40px;
 		}
 		
 		h1 {
-			color: rgb(203,153,126);
+			color: #b8b7a3;
 			font-family: georgia, serif;
 			font-size: 140%;
 		}
 		
 		p {
-			color: rgb(203,153,126);
+			color: #6b705c;
 			font-family: arial, serif;
 			font-size: 100%;
 		}
