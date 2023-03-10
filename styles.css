@@ -4,7 +4,7 @@
 	<style>
 		body {
 			background-color: #ffe8db; /* hex code for light brown */
-			padding: 40px;
+			padding: 200px;
 		}
 		
 		h1 {
@@ -17,6 +17,18 @@
 			color: #6b705c;
 			font-family: arial, serif;
 			font-size: 100%;
+		}
+
+		nav {
+			background-color: #6b705c;
+			padding: 10px;
+		}
+	
+	nav a {
+			color: white;
+			text-decoration: none;
+			margin-right: 10px;
+			font-size: 120%;
 		}
 	</style>
 </head>
