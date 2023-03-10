@@ -19,6 +19,13 @@ p   {
 	font-size: 100%;
 }
 
+.box {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-right: 30px;
+}
+
 </style>
 </head>
 
