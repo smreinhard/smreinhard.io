@@ -4,7 +4,7 @@
 	<style>
 		body {
 			font-family: arial, serif;
-			background-color: #ffe8db; /* hex code for light brown */
+			background-color: #ffe8d6; /* hex code for light brown */
 		}
 		
 		h1 {
@@ -12,8 +12,17 @@
 			font-family: georgia, serif;
 			font-size: 140%; /* increase heading size */
 			text-align: center; /* center heading */
-			margin-top: 200px; /* add top margin */
-			margin-bottom: 200px; /* add bottom margin */
+			margin-top: 50px; /* add top margin */
+			margin-bottom: 10px; /* add bottom margin */
+		}
+
+		h2 {
+			color: #cb997e;
+			font-family: georgia, serif;
+			font-size: 140%; /* increase heading size */
+			text-align: center; /* center heading */
+			margin-top: 10px; /* add top margin */
+			margin-bottom: 50px; /* add bottom margin */
 		}
 		
 		p {
@@ -21,7 +30,7 @@
 			font-family: arial, serif;
 			font-size: 100%;
 			line-height: 1.5;
-			margin-bottom: 200px; /* add bottom margin */
+			margin-bottom: 10px; /* add bottom margin */
 		}
 
 		.navbar {
