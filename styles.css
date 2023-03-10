@@ -3,25 +3,21 @@
 
 <head>
 <style>
-body  {
-	  background-color: rgb(255,232,219);
+body   {
+	background-color: rgb(255,232,219);
 }
-h1  {
+
+h1   {
 	color: rgb(203,153,126);
 	font-family:georgia;
 	font-size: 200%;
 }
+
 p   {
 	color: rgb(203,153,126);
 	font-family:arial;
 	font-size: 125%;
 }
+
 </style>
 </head>
-
-<body>
-	<h1>This is a heading.</h1>
-	<p>This is a paragraph.</p>
-</body>
-
-</html>
