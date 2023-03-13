@@ -1,80 +1,16 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<style>
-		body {
-			font-family: arial, serif;
-			background-color: #ffe8d6; /* hex code for light brown */
-			margin-left: 50px; /* add left margin */
-			margin-right: 50px; /* add right margin */
-		}
-		
-		h1 {
-			color: #b8b7a3;
-			font-family: georgia, serif;
-			font-size: 140%; /* increase heading size */
-			text-align: center; /* center heading */
-			margin-top: 30px; /* add top margin */
-			margin-bottom: 10px; /* add bottom margin */
-		}
+<html lang="en">
+<meta charset="UTF-8">
+<title>Hello!</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css">
 
-		h2 {
-			color: #cb997e;
-			font-family: georgia, serif;
-			font-size: 140%; /* increase heading size */
-			text-align: center; /* center heading */
-			margin-top: 10px; /* add top margin */
-			margin-bottom: 30px; /* add bottom margin */
-		}
-		
-		p {
-			color: #6b705c;
-			font-family: arial, serif;
-			font-size: 100%;
-			line-height: 1.5;
-			margin-bottom: 10px; /* add bottom margin */
-		}
 
-		img {
-			margin-left: 30px;
-			margin-right: 30px;
-		}
 
-		dt {
-  			margin-left: 30px;
-  			margin-right: 30px;
-		}
+	<!--- Code above this line will not be displayed on the browser --> 
 
-		.navbar {
-			background-color: #2E2E2E; /* dark gray */
-			display: flex;
-			justify-content: space-between; /* space out links */
-			align-items: center; /* center links vertically */
-			padding: 1rem 2rem; /* add padding */
-		}
-
-		.navbar a {
-			color: #F8F8F8; /* white */
-			font-size: 1.2rem; /* increase font size */
-			text-decoration: none;
-			margin: 0 1rem; /* add space between links */
-			transition: all 0.3s ease-in-out; /* add hover transition */
-		}
-
-		.navbar a:hover {
-			background-color: #F8F8F8; /* light gray */
-			color: #2E2E2E; /* dark gray */
-			border-radius: 5px; /* add border radius */
-		}
-
-		.active {
-			background-color: #F8F8F8; /* light gray */
-			color: #2E2E2E; /* dark gray */
-			border-radius: 5px; /* add border radius */
-		}
-	</style>
-</head>
 <body>
+
 	<!-- Navigation Bar HTML -->
 	<div class="navbar">
 		<a class="active" href="index.html">Home</a>
@@ -82,7 +18,44 @@
 		<a href="work.html">Work</a>
 	</div>
 
-	<h1>Heading</h1>
-	<p>Paragraph</p>
+<h1 style="font-size:50px;">Hello!</h1>
+
+<h2 style="font-size:30px;">It is Sydney.</h2>
+
+<p>Hello world! My name is <em>Sydney.</em></p> 
+
+<p>Welcome to my website about college and college advice. My website will cover the following topics.</p>
+
+<ol>
+  <li><a href="friends.html" title="Friends">Friends</a></li>
+  <li><a href="work.html" title="Work">Work</a></li>
+  <li>Housing</li>
+</ol>
+
+<p>Here are the reasons why I am making this website.:</p>
+
+<dl>
+    <dt><strong>Gain Coding Experience</strong></dt>
+    <dd>I have always wanted to learn how to code, so making this website will be great practice.</dd>
+
+    <dt><strong>Share my Advice</strong></dt>
+    <dd>College can be a difficult time and I want to share my experiences with others using this website.</dd>
+
+    <dt><strong>Complete the Assignment</strong></dt>
+    <dd>Making this website is a project for my course LIS 351: Introduction to Digital Information.</dd>
+</dl>
+
+<p><strong>Here are some pictures of me.</strong></p>
+
+<img src="IMG_0026.JPG" alt="Young Adult Girl in UW-Madison Badger Shirt" style="width:300px;height:450px;">
+
+<img src="IMG_5965.jpg" alt="Two Young Adult Girls Smiling Together" style="width:300px;height:400px;">
+
+<img src="IMG_7134.JPG" alt="Young Adult Girl Wearing a Sweater and Holding a Gray Cat" style="width:300px;height:500px;">
+
+<p><strong>Here is the link to my LinkedIn profile to learn more about me.</strong></p>
+
+<a href="https://www.linkedin.com/in/sydneyreinhard/">Visit Sydney Reinhard's LinkedIn profile!</a>
+
 </body>
 </html>
