@@ -63,13 +63,13 @@
 
 		.navbar a:hover {
 			background-color: #F8F8F8; /* light gray */
-			color: #2E2E2E; /* dark gray */
+			color: #cb997e;
 			border-radius: 5px; /* add border radius */
 		}
 
 		.active {
 			background-color: #F8F8F8; /* light gray */
-			color: #2E2E2E; /* dark gray */
+			color: #cb997e;
 			border-radius: 5px; /* add border radius */
 		}
 	</style>
