@@ -46,7 +46,7 @@
 		}
 
 		.navbar {
-			background-color: #2E2E2E; /* dark gray */
+			background-color: #cb997e;
 			display: flex;
 			justify-content: space-between; /* space out links */
 			align-items: center; /* center links vertically */
