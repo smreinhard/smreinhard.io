@@ -62,6 +62,11 @@
 			transition: all 0.3s ease-in-out; /* add hover transition */
 		}
 
+		.navbar a.home {
+  			color: #cb997e; /* change color to brown */
+  			font-weight: bold; /* make font bold */
+		}
+
 		.navbar a:hover {
 			background-color: #F8F8F8; /* light gray */
 			color: #cb997e;
