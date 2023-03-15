@@ -55,6 +55,7 @@
 		}
 
 		.navbar a {
+			color: #F8F8F8; /* white */
 			font-size: 1.2rem; /* increase font size */
 			text-decoration: none;
 			margin: 0 1rem; /* add space between links */
@@ -68,6 +69,7 @@
 		}
 
 		.active {
+			background-color: #cb997e; /* light gray */
 			color: #cb997e;
 			border-radius: 5px; /* add border radius */
 		}
