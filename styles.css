@@ -69,7 +69,6 @@
 		}
 
 		.active {
-			background-color: #F8F8F8; /* light gray */
 			color: #cb997e;
 			border-radius: 5px; /* add border radius */
 		}
